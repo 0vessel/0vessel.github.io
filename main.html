@@ -1,1 +1,98 @@
-<h1> wsg my gang <h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>0vessel | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f1117;
+      color: #f0f0f0;
+    }
+    header {
+      background: #1a1c23;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav a {
+      color: #aaa;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .project {
+      margin-bottom: 2rem;
+      border-left: 4px solid #4f46e5;
+      padding-left: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #4f9ef7;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>0vessel</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/0vessel" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Zerovessel (0vessel) — a hobbyist programmer currently using Arch Linux with Hyprland.
+      I experiment with Python, Rust, and C++, and build random stuff when inspiration strikes.
+      I also make small, minimalistic tools (sometimes).
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/0vessel/kiloc" target="_blank" rel="noopener noreferrer">kiloc</a></h3>
+      <p>
+        Kiloc is a fork of <a href="https://github.com/antirez/kilo" target="_blank" rel="noopener noreferrer">Kilo</a> modified for my needs. :)<br />
+        Sadly, due to licensing concerns, I cannot publish it yet.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/0vessel/smllnx" target="_blank" rel="noopener noreferrer">smllnx</a></h3>
+      <p>
+        A small kernel that ships with BusyBox, Kilo, and Lua. GUI coming soon? Will appear on my GitHub profile once ready.
+      </p>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2025 0vessel. Made with minimal HTML and a bit of Linux brainrot.
+  </footer>
+</body>
+</html>
